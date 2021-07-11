@@ -11,7 +11,7 @@ Ciclo II
 - Bases de datos con MySQL
 - Introducción a Spring
 - *Proyecto final:* Aplicación Redflix Java+MySQL
-<img src="./Ciclo_II/RedFlix.mp4">
+<img src="./Ciclo_II/RedFlix.gif">
 
 Ciclo III
 - Ciclo de vida del software

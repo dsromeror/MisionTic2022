@@ -6,4 +6,4 @@ Programación orientada a objetos con Java. Cada ciclo tiene 5 retos para valida
 - Bases de datos con MySQL
 - Introducción a Spring
 - *Proyecto final:* Aplicación Redflix Java+MySQL
-<img src="./RedFlix.mp4">
+<img src="./RedFlix.gif">
