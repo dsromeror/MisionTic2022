@@ -1,0 +1,62 @@
+use redflix;
+insert into director values (101, "Hayo","Miyazaki", "japones");
+insert into director values (102, "Joss", "Whedon", "estadounidense");
+insert into director values (103, "Christopher", "Nolan", "estadounidense");
+insert into director values (104, "Bong", "Joon-ho", "coreano");
+insert into director values (105, "Vincent", "Ward", "neozelandes");
+insert into series values("The walking dead",11,153);
+insert into series values("Viaje a las estrellas: la serie original",3,80);
+insert into series values("Glow",3,30);
+insert into series values("La casa de papel",4,31);
+insert into series values("Friends",10,236);
+insert into series values("Arrow",8,170);
+insert into series values("The big bang theory",12,279);
+insert into series values("Vikingos",6,79);
+insert into peliculas values ("Los Vengadores","Pelicula de superheroes basada en Marvel Comics. Nick Fury director de SHIELD recluta a Tony Stark, Steve Rogers, Bruce Banner y Thor para forma un equipo y evitar que Loki, hermano de Thor, se apodere de la tierra.",
+		1990, 102);
+insert into peliculas values("Interestelar","Pelicula de ciencia ficción, donde la humanidad lucha por sobrevivir. La pelicula cuenta una historia de un grupo de astronautas que viajan a traves de un agujero de gusano en busca de un nuevo hogar.",
+		2014,103);
+insert into peliculas values("El viaje de Chihiro","Pelicula de animación japonesa. Es la historia de una niña de 12 años, quien se ve atrapada por un mundo mágico y sobrenatural, teniendo como misión buscar su libertad y la de sus padres y regresar al mundo real.",
+		2001,101);
+insert into peliculas values("Parasitos","Pelicula de drama, suspenso y humor negro. Toca temas como las diferencias sociales y vulnerabilidad del espiritu humano.",
+		2019,104);
+insert into peliculas values("Mas alla de los sueños","Pelicula de drama, narra una historia trágica de una familia, donde el padre va en busca de sus esposa al mas allá para recuperarla.",
+		1998,105);
+insert into usuarios values("lucky","Pedro","Perez","luchyPP@hotmail.com",3107458452,"Pepito","15/04/1990");
+insert into usuarios values("malopez","Maria","Lopez","marilopez@hotmail.com",3108745152,"marilop","15/08/1993");
+insert into usuarios values("diva","Ana","Diaz","diva215@hotmail.com",32145658452,"anadiva","25/06/1989");
+insert into usuarios values("dreamer","Luis","Rojas","dreamerrojas@hotmail.com",3171484447,"luisro","05/03/1991");
+insert into usuarios values("ninja","Andres","Cruz","ninjacruz1@hotmail.com",3072468452,"cruzdres","21/10/1998");
+insert into usuarios values("neon","Nelson","Ruiz","neon14@hotmail.com",3148542165,"ruizneon","30/09/1997");
+insert into usuarios values("rose","Claudia","Mendez","rosemendez@hotmail.com",3475214875,"rosita","01/02/1988");
+insert into usuarios values("green","Jorge","Rodriguez","greenjorge@hotmail.com",3124587596,"jorgegreen","13/01/1990");
+insert into contenidos (titulo) values ("Los Vengadores");
+insert into contenidos (titulo) values ("Interestelar");
+insert into contenidos (titulo) values ("El viaje de Chihiro");
+insert into contenidos (titulo) values ("Parasitos");
+insert into contenidos (titulo) values ("Mas alla de los sueños");
+insert into contenidos (titulo) values ("The walking dead");
+insert into contenidos (titulo) values ("Viaje a las estrellas: la serie original");
+insert into contenidos (titulo) values ("Glow");
+insert into contenidos (titulo) values ("La casa de papel");
+insert into contenidos (titulo) values ("Friends");
+insert into contenidos (titulo) values ("Arrow");
+insert into contenidos (titulo) values ("The big bang theory");
+insert into contenidos (titulo) values ("Vikingos");
+insert into transmisiones values("lucky","Los Vengadores","2017-10-25 20:00:00");
+insert into transmisiones values("lucky","Parasitos","2019-03-15 18:30:00");
+insert into transmisiones values("lucky","La casa de papel","2019-05-20 20:30:00");
+insert into transmisiones values("malopez","Los Vengadores","2018-05-20 20:30:00");
+insert into transmisiones values("malopez","La casa de papel","2020-01-20 20:30:00");
+insert into transmisiones values("diva","Interestelar","2019-05-20 20:30:00");
+insert into transmisiones values("diva","El viaje de Chihiro","2018-06-22 21:30:00");
+insert into transmisiones values("diva","The walking dead","2020-03-17 15:30:20");
+insert into transmisiones values("dreamer","The walking dead","2020-03-17 15:30:20");
+insert into transmisiones values("dreamer","Viaje a las estrellas: la serie original","2020-04-10 18:30:20");
+insert into transmisiones values("ninja","Glow","2020-02-17 20:30:20");
+insert into transmisiones values("ninja","La casa de papel","2020-02-20 16:30:20");
+insert into transmisiones values("ninja","Arrow","2020-03-27 18:30:20");
+insert into transmisiones values("rose","Friends","2020-03-20 21:30:20");
+insert into transmisiones values("green","Interestelar","2020-01-10 17:30:20");
+insert into transmisiones values("green","Parasitos","2020-02-15 20:30:20");
+insert into transmisiones values("green","Mas alla de los sueños","2020-03-17 18:30:20");

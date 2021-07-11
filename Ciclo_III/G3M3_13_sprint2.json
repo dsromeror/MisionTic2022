@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "6d7e2da3-4862-4480-a6d9-daf0911652f1",
+		"name": "G3M3_13_sprint2",
+		"description": "Sprint 2: Equipo 13 de G3M3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Visualizar Reservas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "id_reserva",
+						"value": "1",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_reserva\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://app-reservasg3m3.herokuapp.com/reserva/empleado/visualizar/20201213/20201223",
+					"protocol": "http",
+					"host": [
+						"app-reservasg3m3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"reserva",
+						"empleado",
+						"visualizar",
+						"20201213",
+						"20201223"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cancelar Reserva",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_reserva\":6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://app-reservasg3m3.herokuapp.com/reserva/cancelar",
+					"protocol": "http",
+					"host": [
+						"app-reservasg3m3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"reserva",
+						"cancelar"
+					]
+				},
+				"description": "Tipo Put"
+			},
+			"response": []
+		},
+		{
+			"name": "Visualizar Reserva - Luego de cancelar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://app-reservasg3m3.herokuapp.com/reserva/empleado/visualizar/20201213/20201223",
+					"protocol": "http",
+					"host": [
+						"app-reservasg3m3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"reserva",
+						"empleado",
+						"visualizar",
+						"20201213",
+						"20201223"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
